@@ -55,10 +55,11 @@ To build a driver solution using Windows 10 driver kit (Windows Driver Kit (WDK)
 1. Add all non-binary files (usually located in the \install directory of the sample) to the Package project
 
     1. In the **Solution Explorer**, right click **Driver Files** 
-            (If you can't find "Driver Files" in this step, please change the "Platform Toolset" like below.
+
+	(If you can't find "Driver Files" in this step, please change the "Platform Toolset" like below.
              1. In the "Solution Explorer", right click the Package project which you want to build and select "Properties".
-             1. Select "General" under the "Configuration Properties".
-             1. Change "Platform Toolset" to "WindowsKernelModeDriver10.0" or "WindowsKernelModeDriver10.0". )
+             2. Select "General" under the "Configuration Properties".
+             3. Change "Platform Toolset" to "WindowsKernelModeDriver10.0" or "WindowsKernelModeDriver10.0". )
 
     1. Select **Add**, then click **Existing Item**
 
